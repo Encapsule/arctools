@@ -1,0 +1,24 @@
+{
+    "name": "arctools",
+    "version": "0.0.3",
+    "codename": "ultramarine",
+    "buildID": "YUFM3x-jTdqVSDChQobc7g",
+    "buildTime": 1449787455,
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Encapsule/arctools.git"
+    },
+    "author": "Encapsule",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/Encapsule/arctools/issues"
+    },
+    "homepage": "https://github.com/Encapsule/arctools#readme",
+    "preferGlobal": true,
+    "description": "Addressable Resource Class (ARC) command line tools.",
+    "keywords": "ARC",
+    "bin": {
+        "arc_generateIRUT": "./arc_tools_id_unique.js",
+        "arc_compileFilterDAG": "./arc_tools_filterdag_compiler.js"
+    }
+}
