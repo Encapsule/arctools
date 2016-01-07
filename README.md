@@ -1,8 +1,8 @@
 ![Encapsule.io](https://encapsule.io/images/blue-burst-encapsule.io-logo-251x64.png "Encapsule.io")
 
-# Encapsule/arctools v0.0.3 "ultramarine"
+# Encapsule/arctools v0.0.5 "perspective"
 
-Build ID "YUFM3x-jTdqVSDChQobc7g" Thu Dec 10 2015 14:44:15 GMT-0800 (PST)
+Build ID "ysjpnhNnQEe4omGHbBWtkg" Wed Jan 06 2016 19:01:39 GMT-0800 (PST)
 
 [![Join the chat at https://gitter.im/Encapsule/](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/Encapsule/?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
@@ -20,4 +20,4 @@ For additional information, please visit [Encapsule.io](https://encapsule.io).
 
 <hr>
 
-Copyright (C) 2015 Christopher D. Russell
+Copyright (C) 2016 Christopher D. Russell
