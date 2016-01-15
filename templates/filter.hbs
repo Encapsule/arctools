@@ -1,103 +1,87 @@
-# Filter: {{filterDescriptor.operationID}}
+# Filter Object README
 
-## "{{filterDescriptor.operationName}}"
+## [{{filterDescriptor.operationID}}::{{filterDescriptor.operationName}}]
 
 **{{filterDescriptor.operationDescription}}**
 
-| Apsect | VIID | VDID |
-|--------|---------------------|-------------------|
-| operation | `{{filterDescriptor.operationID}}` | `{{filterDescriptor.operationVDID}}` |
-| input type | `{{filterDescriptor.inputTypeVIID}}` | `{{filterDescriptor.inputTypeVDID}}` |
-| output type | `{{filterDescriptor.outputTypeVIID}}` | `{{filterDescriptor.outputTypeVDID}}` |
+### Operation
 
-Filter **{{filterDescriptor.operationID}}** implements a **{{filterClassification}}** (see: [Request Dispatch Configuration](#request-dispatch-configuration)).
+This operation is dispatched by calling the filter object's `request` method passing a single value `input`:
 
-## Overview
+```JavaScript
+var response = filter.request(input);
+if (response.error) {
+    throw new Error(response.error); // <- response.result invalid
+}
+var result = response.result; // <- response.result valid
+```
 
-### Request Format
+### Request Input
 
-Operation **{{filterDescriptor.operationID}}** is invoked via filter object method `request`.
-
-#### Input filter spec {{inputSignature}} JSON:
+{{#if filterStages.input}}
+This filter normalizes the value of `input` passed to its `request` method using the following filter spec contract:
 
 ```JavaScript
 {{{inputJSON}}}
 ```
+{{else}}
+This filter accepts any single input parameter value including [object Undefined] is as valid input to this filter's `request` method.
+{{/if}}
 
-### Response Format
 
+### Response Output
 
-### Output filter spec {{outputSignature}} JSON:
+This filter's `request` method returns a normalized `response` object when called.
 
+```JavaScript
+var response = filter.request(input);
+var result = undefined; // assume nothing
+// You must check for an error condition.
+if (!response.error) {
+    // Operation succeeded and response.result is a valid value.
+    result = response.result;
+} else {
+    // Operation failed and response.error is a string error message.
+    throw new Error(response.error); // e.g.
+}
+// Use value held by result variable for subsequent operations...
+```
+#### Result Format
+
+{{#if filterStages.output}}
+
+If no error then the value assigned to `response.result` is normalized per the following filter spec contract:
 
 ```JavaScript
 {{{outputJSON}}}
 ```
-
-## Implementation Details
-
-### Request Dispatch Configuration
-
-All filter objects provide method `request` that is called to dispatch the filter's operation. Internally, `request` is a multi-stage pipeline consisting of four sub-operations as shown in the diagram below:
+{{else}}
+If no error then any value type including [object Undefined] may be assigned to `response.result`.
+{{/if}}
 
 
-```
-          Filter.request
-         +----------------------------------------------+
-         |           responseFilterSpec +               |
-         |                              |               |
-request -> [iFSP] -> [bodyFunction] -> [rFSP] -> [oFSP] -> response
-         |  |         |                           |     |
-         |  |         |                           |     |
-         +--|---------|---------------------------|-----+
-runtime     |         |                           |
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-factory     |         |                           |
-            |         +< bodyFunctiont            |
-            +< in filter spec    out filter spec >+
+## Implementation
 
-```
+### Identifiers
 
-Filter **{{filterDescriptor.operationID}}** is specifically configured as a **{{filterClassification}}** filter that leverages the stages of the request pipeline as follows:
+| filter identifier | version independent | version dependent |
+|--------|---------------------|-------------------|
+| operation | `{{filterDescriptor.operationID}}` | `{{filterDescriptor.operationVDID}}` |
+| input contract | `{{filterDescriptor.inputTypeVIID}}` | `{{filterDescriptor.inputTypeVDID}}` |
+| output contract | `{{filterDescriptor.outputTypeVIID}}` | `{{filterDescriptor.outputTypeVDID}}` |
 
-| Stage | Purpose | Configuration |
+### Configuration
+Filter classification:  **{{filterClassification}}**
+
+| request stage | stage description | state |
 |-------|---------|---------------|
 | 1. Input Filter | Rejects invalid input requests and shapes to well-formed. | {{filterStages.input}} |
 | 2. Operation | Developer-defined custom data transformation function. | {{filterStages.body}} |
 | 3. Response Filter | Verifies the response of the developer-defined operation function. | {{filterStages.response}} |
 | 4. Output Filter | Rejects invalid output result data and shapes to well-formed. | {{filterStages.output}} |
 
-_Note that **disabled** pipeline stage(s) simply pass information along to the next stage without inspection or modification._
-
-### Error Handling
-
-All filters return a normalized response object with `error` and `result` properties.
-
-After making a call to any filter, you must check for the occurrence of an error before using the value of `request.result` in subsequent operations.
-
-```JavaScript
-// Call the filter's request method.
-var response = filter.request("request is a string");
-// Check for error.
-if (response.error) {
-    // response.error is a string, and response.result is invalid.
-    console.error("Filter operation failed: " + response.error);
-} else {
-    // response.error is null or undefined, and response.result is valid.
-    console.log("Filter operation succeeded.");
-}
-```
-
-**If an error occurred**:
-
-- `response.error` will be an error string explaining what went wrong.
-- `response.result` will not be a valid result and should not be used as input for downstream operations.
-
-**If no error occurred**:
-
-- `response.error` will be null or undefined.
-- `response.result` is valid and can be used for downstream operations.
-
-
 <hr>
-Generated {{generatorDate}} by {{generator}}.
+Filters are created with the [Encapsule/arccore](https://github.com/Encapsule/arccore/) library.<br>
+This document was generated with {{generator}} toolset.<br>
+Document updated {{generatorDate}}
+

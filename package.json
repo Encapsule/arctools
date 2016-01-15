@@ -1,9 +1,9 @@
 {
     "name": "arctools",
-    "version": "0.0.6",
-    "codename": "major-tom",
-    "buildID": "SCWgeMiESD6wyNzTfept8Q",
-    "buildTime": 1452820129,
+    "version": "0.0.7",
+    "codename": "ground-control",
+    "buildID": "ftSq2BjLQfKsbqZm5b218g",
+    "buildTime": 1452901597,
     "repository": {
         "type": "git",
         "url": "git+https://github.com/Encapsule/arctools.git"
