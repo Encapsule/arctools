@@ -1,9 +1,9 @@
 {
     "name": "arctools",
-    "version": "0.0.5",
-    "codename": "perspective",
-    "buildID": "ysjpnhNnQEe4omGHbBWtkg",
-    "buildTime": 1452135699,
+    "version": "0.0.6",
+    "codename": "major-tom",
+    "buildID": "SCWgeMiESD6wyNzTfept8Q",
+    "buildTime": 1452820129,
     "repository": {
         "type": "git",
         "url": "git+https://github.com/Encapsule/arctools.git"
@@ -25,6 +25,7 @@
     "bin": {
         "arc_generateIRUT": "./arc_tools_id_unique.js",
         "arc_compileFilterDAG": "./arc_tools_filterdag_compiler.js",
-        "arc_project": "./arc_tools_project.js"
+        "arc_project": "./arc_tools_project.js",
+        "arc_doc_filter": "./arc_tools_docgen_filter.js"
     }
 }

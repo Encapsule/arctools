@@ -1,0 +1,103 @@
+# Filter: {{filterDescriptor.operationID}}
+
+## "{{filterDescriptor.operationName}}"
+
+**{{filterDescriptor.operationDescription}}**
+
+| Apsect | VIID | VDID |
+|--------|---------------------|-------------------|
+| operation | `{{filterDescriptor.operationID}}` | `{{filterDescriptor.operationVDID}}` |
+| input type | `{{filterDescriptor.inputTypeVIID}}` | `{{filterDescriptor.inputTypeVDID}}` |
+| output type | `{{filterDescriptor.outputTypeVIID}}` | `{{filterDescriptor.outputTypeVDID}}` |
+
+Filter **{{filterDescriptor.operationID}}** implements a **{{filterClassification}}** (see: [Request Dispatch Configuration](#request-dispatch-configuration)).
+
+## Overview
+
+### Request Format
+
+Operation **{{filterDescriptor.operationID}}** is invoked via filter object method `request`.
+
+#### Input filter spec {{inputSignature}} JSON:
+
+```JavaScript
+{{{inputJSON}}}
+```
+
+### Response Format
+
+
+### Output filter spec {{outputSignature}} JSON:
+
+
+```JavaScript
+{{{outputJSON}}}
+```
+
+## Implementation Details
+
+### Request Dispatch Configuration
+
+All filter objects provide method `request` that is called to dispatch the filter's operation. Internally, `request` is a multi-stage pipeline consisting of four sub-operations as shown in the diagram below:
+
+
+```
+          Filter.request
+         +----------------------------------------------+
+         |           responseFilterSpec +               |
+         |                              |               |
+request -> [iFSP] -> [bodyFunction] -> [rFSP] -> [oFSP] -> response
+         |  |         |                           |     |
+         |  |         |                           |     |
+         +--|---------|---------------------------|-----+
+runtime     |         |                           |
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+factory     |         |                           |
+            |         +< bodyFunctiont            |
+            +< in filter spec    out filter spec >+
+
+```
+
+Filter **{{filterDescriptor.operationID}}** is specifically configured as a **{{filterClassification}}** filter that leverages the stages of the request pipeline as follows:
+
+| Stage | Purpose | Configuration |
+|-------|---------|---------------|
+| 1. Input Filter | Rejects invalid input requests and shapes to well-formed. | {{filterStages.input}} |
+| 2. Operation | Developer-defined custom data transformation function. | {{filterStages.body}} |
+| 3. Response Filter | Verifies the response of the developer-defined operation function. | {{filterStages.response}} |
+| 4. Output Filter | Rejects invalid output result data and shapes to well-formed. | {{filterStages.output}} |
+
+_Note that **disabled** pipeline stage(s) simply pass information along to the next stage without inspection or modification._
+
+### Error Handling
+
+All filters return a normalized response object with `error` and `result` properties.
+
+After making a call to any filter, you must check for the occurrence of an error before using the value of `request.result` in subsequent operations.
+
+```JavaScript
+// Call the filter's request method.
+var response = filter.request("request is a string");
+// Check for error.
+if (response.error) {
+    // response.error is a string, and response.result is invalid.
+    console.error("Filter operation failed: " + response.error);
+} else {
+    // response.error is null or undefined, and response.result is valid.
+    console.log("Filter operation succeeded.");
+}
+```
+
+**If an error occurred**:
+
+- `response.error` will be an error string explaining what went wrong.
+- `response.result` will not be a valid result and should not be used as input for downstream operations.
+
+**If no error occurred**:
+
+- `response.error` will be null or undefined.
+- `response.result` is valid and can be used for downstream operations.
+
+
+<hr>
+Generated {{generatorDate}} by {{generator}}.

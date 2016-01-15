@@ -6,6 +6,7 @@ var projectFilename = "arctools.json";
 var FS = require('fs');
 var PATH = require('path');
 var TOOLSLIB = require('./arc_tools_lib');
+var FILELOADER = TOOLSLIB.jsrcFileLoaderSync;
 
 var chalk = TOOLSLIB.chalk;
 var theme = TOOLSLIB.clistyles;
@@ -13,7 +14,6 @@ var theme = TOOLSLIB.clistyles;
 var filters = {};
 filters.projectConstruct = require('./arc_tools_project_construct');
 filters.projectParse = require('./arc_tools_project_parse');
-
 
 var arctoolsProjectData = undefined;
 
@@ -41,6 +41,14 @@ if (program.about) {
 
 while (!exitProgram && !errors.length) {
     // do some things...
+
+    var filterDocTemplatePath = PATH.resolve(__dirname, 'templates', 'filter.hbs');
+
+    var loaderResponse = FILELOADER.request(filterDocTemplatePath);
+    if (loaderResponse.error) {
+        errors.unshift(loaderResponse.error);
+        break;
+    }
 
     // Set the main ARC tools project directory
     var projectDirectory = TOOLSLIB.paths.normalizePath(program.directory || "./");
@@ -204,4 +212,3 @@ console.log(
 
 return exitCode;
 // eof
-

@@ -1,13 +1,24 @@
 
-var ARCCORE = require('../arccore');
-var DOCGENFILTER = require('./arc_tools_lib_filter_doc_gen');
+var PATH = require('path');
+var ARCTOOLSLIB = require('./arc_tools_lib');
+var FILELOADER = ARCTOOLSLIB.jsrcFileLoaderSync;
+var DOCGENFILTER = ARCTOOLSLIB.filterDocGenerate;
 
-var docTemplate = "<h1>{{filterDescriptor.operationID}}</h1>";
+
+var filterDocTemplatePath = PATH.resolve(__dirname, 'templates', 'filter.hbs');
+
+var loaderResponse = FILELOADER.request(filterDocTemplatePath);
+if (loaderResponse.error) {
+    console.error(loaderResponse.error);
+    throw new Error(loaderResponse.error);
+}
 
 var filterResponse = DOCGENFILTER.request({
     filter: DOCGENFILTER,
-    template: docTemplate
+    template: loaderResponse.result.resource
 });
+
+console.log(filterResponse.result);
 
 
 
