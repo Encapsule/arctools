@@ -1,9 +1,9 @@
 {
     "name": "arctools",
-    "version": "0.0.7",
-    "codename": "ground-control",
-    "buildID": "ftSq2BjLQfKsbqZm5b218g",
-    "buildTime": 1452901597,
+    "version": "0.0.8",
+    "codename": "pre-release",
+    "buildID": "mZHA54CyT3ab0pZL69-yhg",
+    "buildTime": 1454126867,
     "repository": {
         "type": "git",
         "url": "git+https://github.com/Encapsule/arctools.git"
@@ -27,5 +27,6 @@
         "arc_compileFilterDAG": "./arc_tools_filterdag_compiler.js",
         "arc_project": "./arc_tools_project.js",
         "arc_doc_filter": "./arc_tools_docgen_filter.js"
-    }
+    },
+    "main": "arc_tools_lib.js"
 }

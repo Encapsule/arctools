@@ -1,8 +1,8 @@
 ![Encapsule.io](https://encapsule.io/images/blue-burst-encapsule.io-logo-251x64.png "Encapsule.io")
 
-# Encapsule/arctools v0.0.7 "ground-control"
+# Encapsule/arctools v0.0.8 "pre-release"
 
-Build ID "ftSq2BjLQfKsbqZm5b218g" Fri Jan 15 2016 15:46:37 GMT-0800 (PST)
+Build ID "mZHA54CyT3ab0pZL69-yhg" Fri Jan 29 2016 20:07:47 GMT-0800 (PST)
 
 [![Join the chat at https://gitter.im/Encapsule/](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/Encapsule/?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
