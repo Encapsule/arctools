@@ -1,8 +1,8 @@
 ![Encapsule.io](https://encapsule.io/images/blue-burst-encapsule.io-logo-251x64.png "Encapsule.io")
 
-# Encapsule/arctools v0.0.8 "pre-release"
+# Encapsule/arctools v0.0.9 "pre-release"
 
-Build ID "d_0Hd6nfRjiYPUl_AnGBYw" Sat Jan 30 2016 16:04:57 GMT-0800 (PST)
+Build ID "UKsk5gIbTEGLR9qGkemm2w" Thu Feb 04 2016 00:48:02 GMT-0800 (PST)
 
 [![Join the chat at https://gitter.im/Encapsule/](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/Encapsule/?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
