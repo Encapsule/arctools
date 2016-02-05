@@ -1,9 +1,9 @@
 {
     "name": "arctools",
-    "version": "0.0.9",
+    "version": "0.0.10",
     "codename": "pre-release",
-    "buildID": "UKsk5gIbTEGLR9qGkemm2w",
-    "buildTime": 1454575682,
+    "buildID": "Sb6_f9eJQ6SK_zYkxrbJvg",
+    "buildTime": 1454634052,
     "repository": {
         "type": "git",
         "url": "git+https://github.com/Encapsule/arctools.git"
