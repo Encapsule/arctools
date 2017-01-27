@@ -1,9 +1,9 @@
 {
     "name": "arctools",
-    "version": "0.0.12",
-    "codename": "pre-release",
-    "buildID": "Sdo8Z6iTQh-h8FV-a79h9w",
-    "buildTime": 1455419620,
+    "version": "0.0.13",
+    "codename": "orange weasel (pre-release)",
+    "buildID": "TWi4GnkuQFyfUzn3bwIPsg",
+    "buildTime": 1485551504,
     "repository": {
         "type": "git",
         "url": "git+https://github.com/Encapsule/arctools.git"
