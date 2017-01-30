@@ -1,8 +1,8 @@
 ![Encapsule.io](https://encapsule.io/images/blue-burst-encapsule.io-logo-251x64.png "Encapsule.io")
 
-# Encapsule/arctools v0.0.13 "orange weasel (pre-release)"
+# Encapsule/arctools v0.0.14 "hidden dragon (pre-release)"
 
-Build ID "TWi4GnkuQFyfUzn3bwIPsg" Fri Jan 27 2017 13:11:44 GMT-0800 (PST)
+Build ID "cBFTdyLuQ2KFHxSE3qjNCQ" Mon Jan 30 2017 14:24:59 GMT-0800 (PST)
 
 [![Join the chat at https://gitter.im/Encapsule/](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/Encapsule/?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
