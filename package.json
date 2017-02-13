@@ -1,9 +1,9 @@
 {
     "name": "arctools",
-    "version": "0.0.14",
-    "codename": "hidden dragon (pre-release)",
-    "buildID": "cBFTdyLuQ2KFHxSE3qjNCQ",
-    "buildTime": 1485815099,
+    "version": "0.0.15",
+    "codename": "longbow (pre-release)",
+    "buildID": "VM_EG6cxTAuFusEgx0Damw",
+    "buildTime": 1486951235,
     "repository": {
         "type": "git",
         "url": "git+https://github.com/Encapsule/arctools.git"
