@@ -1,8 +1,8 @@
 ![Encapsule.io](https://encapsule.io/images/blue-burst-encapsule.io-logo-251x64.png "Encapsule.io")
 
-# Encapsule/arctools v0.0.15 "longbow (pre-release)"
+# Encapsule/arctools v0.0.16 "peregrine (pre-release)"
 
-Build ID "VM_EG6cxTAuFusEgx0Damw" Sun Feb 12 2017 18:00:35 GMT-0800 (PST)
+Build ID "-QvC-UXFQFKRjVhs0E5_8A" Wed Feb 15 2017 13:23:23 GMT-0800 (PST)
 
 [![Join the chat at https://gitter.im/Encapsule/](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/Encapsule/?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
