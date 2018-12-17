@@ -1,23 +1,50 @@
-![Encapsule.io](https://encapsule.io/images/blue-burst-encapsule.io-logo-251x64.png "Encapsule.io")
+[![Encapsule Project](https://encapsule.io/images/blue-burst-encapsule.io-icon-72x72.png "Encapsule Project")](https://encapsule.io)
 
-# Encapsule/arctools v0.0.17 "kestrel (pre-release)"
+### Encapsule Project
 
-Build ID "N5QokcMISJuT8nY-os-q-A" Sun Mar 19 2017 17:55:36 GMT-0700 (PDT)
+# arctools v0.1.0 "spindrift"
 
-[![Join the chat at https://gitter.im/Encapsule/](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/Encapsule/?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+```
+Package: arctools v0.1.0 "spindrift" build ID "UPZKGfiHSNSjcKEoa7Syew"
+Sources: Encapsule/ARC_master#870f06f774a89094ae7adf7802747281a856479d
+Purpose: tools (Node.js)
+Created: 2018-12-17T00:31:24.000Z
+License: MIT
+```
 
-## Description
+# Summary
 
-Addressable Resource Class (ARC) command line tools.
+Encapsule Project Addressable Resource Class (ARC) command line tools.
 
-## Repo
+This package contains experimental (i.e. undocumented) tools that are _optional_ - you do not need to install this package to work with the `arccore` package.
 
-The contents of this repository is a generated distribution of the Encapsule/arctools Node.js package.
+## Usage
 
-Source, tests, and build infrastructure for this work is maintained in a separate repository.
+The `arctools` tools package is typically installed globally.
 
-For additional information, please visit [Encapsule.io](https://encapsule.io).
+```
+$ npm install --global arctools
+```
+
+## Distribution
+
+The `arctools` tools package is published on [npmjs](https://npmjs.com).
+
+- [arctools Package Distribution](https://npmjs.com/package/arctools/v/0.1.0) ([npm](https://www.npmjs.com/~chrisrus))
+- [arctools Package Repository](https://github.com/Encapsule/arctools) ([GitHub](https://github.com/Encapsule))
+
+## Contents
+
+Installing the `arctools` package globally as above will register `arc_generateIRUT`, `arc_doc_filter`, and experimental `arc_project` executables available at the shell prompt. Or, in automation environments (e.g. make).
+
+Use the `--help` option to get going:
+
+```
+$ arc_generateIRUT --help
+```
 
 <hr>
 
-Copyright (C) 2017 Christopher D. Russell, [Encapsule.io](https://encapsule.io) Bellevue, WA USA
+Copyright &copy; 2018 [Christopher D. Russell](http://chrisrussell.net)
+
+Published by [Encapsule Project](https://encapsule.io) Seattle, WA USA

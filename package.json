@@ -1,21 +1,29 @@
 {
     "name": "arctools",
-    "version": "0.0.17",
-    "codename": "kestrel (pre-release)",
-    "buildID": "N5QokcMISJuT8nY-os-q-A",
-    "buildTime": 1489971336,
+    "version": "0.1.0",
+    "codename": "spindrift",
+    "buildID": "UPZKGfiHSNSjcKEoa7Syew",
+    "buildTime": 1545006684,
+    "ARC_master": "870f06f774a89094ae7adf7802747281a856479d",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/Encapsule/arctools.git"
     },
-    "author": "Encapsule",
+    "author": "Encapsule Project",
+    "contributors": [
+        {
+            "name": "Christopher D. Russell",
+            "email": "cdr@encapsule.io",
+            "url": "http://chrisrussell.net"
+        }
+    ],
     "license": "MIT",
     "bugs": {
         "url": "https://github.com/Encapsule/arctools/issues"
     },
     "homepage": "https://github.com/Encapsule/arctools#readme",
     "preferGlobal": true,
-    "description": "Addressable Resource Class (ARC) command line tools.",
+    "description": "Encapsule Project Addressable Resource Class (ARC) command line tools.",
     "keywords": "ARC",
     "dependencies": {
         "chalk": "^1.1.1",
@@ -24,7 +32,6 @@
     },
     "bin": {
         "arc_generateIRUT": "./arc_tools_id_unique.js",
-        "arc_compileFilterDAG": "./arc_tools_filterdag_compiler.js",
         "arc_project": "./arc_tools_project.js",
         "arc_doc_filter": "./arc_tools_docgen_filter.js"
     },
