@@ -2,9 +2,9 @@
     "name": "arctools",
     "version": "0.1.0",
     "codename": "spindrift",
-    "buildID": "e6kEgTMaS6q5Rty0srP9uQ",
-    "buildTime": 1546016320,
-    "ARC_master": "7c495826877c4ff81572aec4ff9cb57155f7759e",
+    "buildID": "XywUbTOKTxm_U6a_1RQ1-Q",
+    "buildTime": 1546017481,
+    "ARC_master": "0fb0098e8a329308256626e5251b7b0423933e5c",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/Encapsule/arctools.git"
