@@ -123,7 +123,7 @@ while (!exitProgram) {
   console.log(theme.processStepHeader("> Generated documentation for filter '" + moduleResource.filterDescriptor.operationID + "'"));
 
   if (outputFilename) {
-    writerResponse = TOOLSLIB.stringToFileSync.request({
+    var writerResponse = TOOLSLIB.stringToFileSync.request({
       path: outputFilename,
       resource: generatorResponse.result
     });
