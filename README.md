@@ -5,10 +5,10 @@
 # arctools v0.1.0 "spindrift"
 
 ```
-Package: arctools v0.1.0 "spindrift" build ID "XywUbTOKTxm_U6a_1RQ1-Q"
+Package: arctools v0.1.0 "spindrift" build ID "-sx3Vy-sSZSjLwSDc2lZnQ"
 Sources: Encapsule/ARC_master#0fb0098e8a329308256626e5251b7b0423933e5c
 Purpose: tools (Node.js)
-Created: 2018-12-28T17:18:01.000Z
+Created: 2019-01-02T16:35:10.000Z
 License: MIT
 ```
 
@@ -45,6 +45,6 @@ $ arc_generateIRUT --help
 
 <hr>
 
-Copyright &copy; 2018 [Christopher D. Russell](http://chrisrussell.net)
+Copyright &copy; 2019 [Christopher D. Russell](http://chrisrussell.net)
 
 Published by [Encapsule Project](https://encapsule.io) Seattle, WA USA
