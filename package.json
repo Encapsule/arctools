@@ -1,15 +1,15 @@
 {
     "name": "arctools",
-    "version": "0.1.0",
-    "codename": "spindrift",
-    "buildID": "-sx3Vy-sSZSjLwSDc2lZnQ",
-    "buildTime": 1546446910,
-    "ARC_master": "0fb0098e8a329308256626e5251b7b0423933e5c",
+    "version": "0.1.2",
+    "codename": "spindrift2",
+    "buildID": "a66mW-45QLaY-PpbMlu21g",
+    "buildTime": 1550158614,
+    "ARC_master": "86b4896237eca309f48945204241c4ff0010bc33",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/Encapsule/arctools.git"
     },
-    "author": "Encapsule Project",
+    "author": "Encapsule",
     "contributors": [
         {
             "name": "Christopher D. Russell",

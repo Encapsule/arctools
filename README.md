@@ -1,14 +1,14 @@
 [![Encapsule Project](https://encapsule.io/images/blue-burst-encapsule.io-icon-72x72.png "Encapsule Project")](https://encapsule.io)
 
-### Encapsule Project
+### Encapsule
 
-# arctools v0.1.0 "spindrift"
+# arctools v0.1.2 "spindrift2"
 
 ```
-Package: arctools v0.1.0 "spindrift" build ID "-sx3Vy-sSZSjLwSDc2lZnQ"
-Sources: Encapsule/ARC_master#0fb0098e8a329308256626e5251b7b0423933e5c
+Package: arctools v0.1.2 "spindrift2" build ID "a66mW-45QLaY-PpbMlu21g"
+Sources: Encapsule/ARC_master#86b4896237eca309f48945204241c4ff0010bc33
 Purpose: tools (Node.js)
-Created: 2019-01-02T16:35:10.000Z
+Created: 2019-02-14T15:36:54.000Z
 License: MIT
 ```
 
@@ -30,7 +30,7 @@ $ npm install --global arctools
 
 The `arctools` tools package is published on [npmjs](https://npmjs.com).
 
-- [arctools Package Distribution](https://npmjs.com/package/arctools/v/0.1.0) ([npm](https://www.npmjs.com/~chrisrus))
+- [arctools Package Distribution](https://npmjs.com/package/arctools/v/0.1.2) ([npm](https://www.npmjs.com/~chrisrus))
 - [arctools Package Repository](https://github.com/Encapsule/arctools) ([GitHub](https://github.com/Encapsule))
 
 ## Contents
