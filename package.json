@@ -1,13 +1,13 @@
 {
-    "name": "arctools",
+    "name": "encapsule@arctools",
     "version": "0.1.2",
-    "codename": "spindrift2",
-    "buildID": "CAtbkxEORc-nPu08iwnAFg",
-    "buildTime": 1550170801,
-    "ARC_master": "90ae9733ec01aa2c7034edcef6e33068ad557614",
+    "codename": "snowpocalypse",
+    "buildID": "vev3zqmwSb2ohVdHaH9mFw",
+    "buildTime": 1550196415,
+    "ARC_master": "ad91411429485691ab1c802f3b1214428679dc08",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/Encapsule/arctools.git"
+        "url": "git+https://github.com/Encapsule/encapsule@arctools.git"
     },
     "author": "Encapsule",
     "contributors": [
@@ -19,9 +19,9 @@
     ],
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/Encapsule/arctools/issues"
+        "url": "https://github.com/Encapsule/encapsule@arctools/issues"
     },
-    "homepage": "https://github.com/Encapsule/arctools#readme",
+    "homepage": "https://github.com/Encapsule/encapsule@arctools#readme",
     "preferGlobal": true,
     "description": "Encapsule Project Addressable Resource Class (ARC) command line tools.",
     "keywords": "ARC",
