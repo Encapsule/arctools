@@ -2,13 +2,13 @@
 
 ### Encapsule
 
-# encapsule@arctools v0.1.2 "snowpocalypse"
+# @encapsule/arctools v0.1.2 "snowpocalypse"
 
 ```
-Package: encapsule@arctools v0.1.2 "snowpocalypse" build ID "vev3zqmwSb2ohVdHaH9mFw"
-Sources: Encapsule/ARC_master#ad91411429485691ab1c802f3b1214428679dc08
+Package: @encapsule/arctools v0.1.2 "snowpocalypse" build ID "zWzivSSiS4GAvEfJBjaJXg"
+Sources: Encapsule/ARC_master#96a3b9d6ac095687a810958c20046881813ede8d
 Purpose: tools (Node.js)
-Created: 2019-02-15T02:06:55.000Z
+Created: 2019-02-15T02:38:36.000Z
 License: MIT
 ```
 
@@ -20,18 +20,25 @@ This package contains experimental (i.e. undocumented) tools that are _optional_
 
 ## Usage
 
-The `encapsule@arctools` tools package is typically installed globally.
+The `@encapsule/arctools` tools package is typically installed globally.
 
 ```
-$ npm install --global encapsule@arctools
+$ yarn global add @encapsule/arctools
 ```
+
+or...
+
+
+```
+$ npm install -g @encapsule/arctools
+'''
 
 ## Distribution
 
-The `encapsule@arctools` tools package is published on [npmjs](https://npmjs.com).
+The `@encapsule/arctools` tools package is published on [npmjs](https://npmjs.com).
 
-- [encapsule@arctools Package Distribution](https://npmjs.com/package/encapsule@arctools/v/0.1.2) ([npm](https://www.npmjs.com/~chrisrus))
-- [encapsule@arctools Package Repository](https://github.com/Encapsule/encapsule@arctools) ([GitHub](https://github.com/Encapsule))
+- [@encapsule/arctools Package Distribution](https://npmjs.com/package/@encapsule/arctools/v/0.1.2) ([npm](https://www.npmjs.com/@encapsule))
+- [@encapsule/arctools Package Repository](https://github.com/Encapsule/arctools) ([GitHub](https://github.com/Encapsule))
 
 ## Contents
 
