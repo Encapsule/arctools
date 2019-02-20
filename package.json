@@ -1,10 +1,10 @@
 {
     "name": "@encapsule/arctools",
-    "version": "0.1.2",
-    "codename": "snowpocalypse",
-    "buildID": "AEmjWfWzQFCN4THcq_lmFA",
-    "buildTime": 1550198952,
-    "ARC_master": "13fa1aec3d1617cbdccd3c340112fe8d089ae91a",
+    "version": "0.1.3",
+    "codename": "nesika",
+    "buildID": "v3JCnsjJTC2YVaJlu6q09w",
+    "buildTime": 1550704384,
+    "ARC_master": "0d0947f0316981c5e7aa8fd951e8df9f85989418",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/Encapsule/arctools.git"
