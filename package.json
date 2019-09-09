@@ -1,10 +1,10 @@
 {
     "name": "@encapsule/arctools",
-    "version": "0.1.5",
-    "codename": "kamloops",
-    "buildID": "ENLeel2eSBqp463RriB03g",
-    "buildTime": 1552537044,
-    "ARC_master": "7105093384d56eecb59e52cbf9ff800545cc6856",
+    "version": "0.1.6",
+    "codename": "grasslands",
+    "buildID": "0h8D-8DYQR-oBkbutdis-w",
+    "buildTime": 1568065677,
+    "ARC_master": "5d74e2efa5e8facace0f24e93f35fac480ab6319",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/Encapsule/arctools.git"
