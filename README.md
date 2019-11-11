@@ -2,13 +2,13 @@
 
 ### Encapsule Project
 
-# @encapsule/arctools v0.1.6 "grasslands"
+# @encapsule/arctools v0.1.7 "halfmoon"
 
 ```
-Package: @encapsule/arctools v0.1.6 "grasslands" build ID "0h8D-8DYQR-oBkbutdis-w"
-Sources: Encapsule/ARC_master#5d74e2efa5e8facace0f24e93f35fac480ab6319
+Package: @encapsule/arctools v0.1.7 "halfmoon" build ID "OEaB2oLMTlao80edIE5wlQ"
+Sources: Encapsule/ARC_master#3a38e1b32e55d9a7da60c6307217f8b45927c088
 Purpose: tools (Node.js)
-Created: 2019-09-09T21:47:57.000Z
+Created: 2019-11-11T03:02:19.000Z
 License: MIT
 ```
 
@@ -37,7 +37,7 @@ $ npm install -g @encapsule/arctools
 
 The `@encapsule/arctools` tools package is published on [npmjs](https://npmjs.com).
 
-- [@encapsule/arctools Package Distribution](https://npmjs.com/package/@encapsule/arctools/v/0.1.6) ([npm](https://www.npmjs.com/@encapsule))
+- [@encapsule/arctools Package Distribution](https://npmjs.com/package/@encapsule/arctools/v/0.1.7) ([npm](https://www.npmjs.com/@encapsule))
 - [@encapsule/arctools Package Repository](https://github.com/Encapsule/arctools) ([GitHub](https://github.com/Encapsule))
 
 ## Contents
