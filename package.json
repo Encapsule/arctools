@@ -1,9 +1,9 @@
 {
     "name": "@encapsule/arctools",
-    "version": "0.1.7",
-    "codename": "halfmoon",
-    "buildID": "OEaB2oLMTlao80edIE5wlQ",
-    "buildTime": 1573441339,
+    "version": "0.1.8",
+    "codename": "sagelands",
+    "buildID": "YiJWOlp7SLKmrUyvlbzovw",
+    "buildTime": 1578236482,
     "ARC_master": "3a38e1b32e55d9a7da60c6307217f8b45927c088",
     "repository": {
         "type": "git",
@@ -14,7 +14,7 @@
         {
             "name": "Christopher D. Russell",
             "email": "cdr@encapsule.io",
-            "url": "http://chrisrussell.net"
+            "url": "https://encapsule.io"
         }
     ],
     "license": "MIT",

@@ -2,13 +2,13 @@
 
 ### Encapsule Project
 
-# @encapsule/arctools v0.1.7 "halfmoon"
+# @encapsule/arctools v0.1.8 "sagelands"
 
 ```
-Package: @encapsule/arctools v0.1.7 "halfmoon" build ID "OEaB2oLMTlao80edIE5wlQ"
+Package: @encapsule/arctools v0.1.8 "sagelands" build ID "YiJWOlp7SLKmrUyvlbzovw"
 Sources: Encapsule/ARC_master#3a38e1b32e55d9a7da60c6307217f8b45927c088
 Purpose: tools (Node.js)
-Created: 2019-11-11T03:02:19.000Z
+Created: 2020-01-05T15:01:22.000Z
 License: MIT
 ```
 
@@ -37,7 +37,7 @@ $ npm install -g @encapsule/arctools
 
 The `@encapsule/arctools` tools package is published on [npmjs](https://npmjs.com).
 
-- [@encapsule/arctools Package Distribution](https://npmjs.com/package/@encapsule/arctools/v/0.1.7) ([npm](https://www.npmjs.com/@encapsule))
+- [@encapsule/arctools Package Distribution](https://npmjs.com/package/@encapsule/arctools/v/0.1.8) ([npm](https://www.npmjs.com/@encapsule))
 - [@encapsule/arctools Package Repository](https://github.com/Encapsule/arctools) ([GitHub](https://github.com/Encapsule))
 
 ## Contents
@@ -52,6 +52,6 @@ $ arc_generateIRUT --help
 
 <hr>
 
-Copyright &copy; 2019 [Christopher D. Russell](http://chrisrussell.net)
+Copyright &copy; 2020 [Christopher D. Russell](https://encapsule.io)
 
 Published by [Encapsule Project](https://encapsule.io) Seattle, WA USA
