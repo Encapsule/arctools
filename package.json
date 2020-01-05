@@ -2,9 +2,9 @@
     "name": "@encapsule/arctools",
     "version": "0.1.8",
     "codename": "sagelands",
-    "buildID": "YiJWOlp7SLKmrUyvlbzovw",
-    "buildTime": 1578236482,
-    "ARC_master": "3a38e1b32e55d9a7da60c6307217f8b45927c088",
+    "buildID": "ONcss2kKRTedb2Th9_6eCg",
+    "buildTime": 1578236998,
+    "ARC_master": "f4ef690fb23edd126b911cf745ded4e73665ae6b",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/Encapsule/arctools.git"
