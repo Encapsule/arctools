@@ -1,10 +1,10 @@
 {
     "name": "@encapsule/arctools",
-    "version": "0.1.8",
-    "codename": "sagelands",
-    "buildID": "ONcss2kKRTedb2Th9_6eCg",
-    "buildTime": 1578236998,
-    "ARC_master": "f4ef690fb23edd126b911cf745ded4e73665ae6b",
+    "version": "0.1.9",
+    "codename": "crescent",
+    "buildID": "PANppySVSuq_rHt8GC3LOQ",
+    "buildTime": 1582148079,
+    "ARC_master": "d8676518ee7c59ec18a26550c99dd8ea1ec6c698",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/Encapsule/arctools.git"
@@ -14,7 +14,7 @@
         {
             "name": "Christopher D. Russell",
             "email": "cdr@encapsule.io",
-            "url": "https://encapsule.io"
+            "url": "https://github.com/ChrisRus"
         }
     ],
     "license": "MIT",
@@ -23,8 +23,8 @@
     },
     "homepage": "https://github.com/Encapsule/arctools#readme",
     "preferGlobal": true,
-    "description": "Encapsule Project Addressable Resource Class (ARC) command line tools.",
-    "keywords": "ARC",
+    "description": "ARC stands for Addressable Resource Cell. @encapsule/arctools contains a small collection of command-line utilities derived from @encapsule/arccore. Used primarily by @encapsule/holistic package.",
+    "keywords": "Encapsule, holistic, filter, discriminator, routing, MDR, graph, DirectedGraph, data, algorithms, models, modeling, library",
     "dependencies": {
         "chalk": "^1.1.1",
         "commander": "^2.9.0",
