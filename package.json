@@ -1,10 +1,10 @@
 {
     "name": "@encapsule/arctools",
-    "version": "0.1.9",
-    "codename": "crescent",
-    "buildID": "PANppySVSuq_rHt8GC3LOQ",
-    "buildTime": 1582148079,
-    "ARC_master": "d8676518ee7c59ec18a26550c99dd8ea1ec6c698",
+    "version": "0.1.10",
+    "codename": "stardust",
+    "buildID": "ZduBe44vQ1qtyiFrDqfjHg",
+    "buildTime": 1603048482,
+    "ARC_master": "fc9a90f7f557ac247a068d0490545928688b8f02",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/Encapsule/arctools.git"

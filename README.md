@@ -1,12 +1,12 @@
 # [![Encapsule Project](https://encapsule.io/images/blue-burst-encapsule.io-icon-72x72.png "Encapsule Project")](https://encapsule.io) Encapsule Project
 
-# @encapsule/arctools v0.1.9 "crescent"
+# @encapsule/arctools v0.1.10 "stardust"
 
 ```
-Package: @encapsule/arctools v0.1.9 "crescent" build ID "PANppySVSuq_rHt8GC3LOQ"
-Sources: Encapsule/ARC_master#d8676518ee7c59ec18a26550c99dd8ea1ec6c698
+Package: @encapsule/arctools v0.1.10 "stardust" build ID "ZduBe44vQ1qtyiFrDqfjHg"
+Sources: Encapsule/ARC_master#fc9a90f7f557ac247a068d0490545928688b8f02
 Purpose: tools (Node.js)
-Created: 2020-02-19T21:34:39.000Z
+Created: 2020-10-18T19:14:42.000Z
 License: MIT
 ```
 
@@ -37,7 +37,7 @@ $ npm install -g @encapsule/arctools
 
 The `@encapsule/arctools` tools package is published on [npmjs](https://npmjs.com).
 
-- [@encapsule/arctools Package Distribution](https://npmjs.com/package/@encapsule/arctools/v/0.1.9) ([npm](https://www.npmjs.com/@encapsule))
+- [@encapsule/arctools Package Distribution](https://npmjs.com/package/@encapsule/arctools/v/0.1.10) ([npm](https://www.npmjs.com/@encapsule))
 - [@encapsule/arctools Package Repository](https://github.com/Encapsule/arctools) ([GitHub](https://github.com/Encapsule))
 
 ## Contents
