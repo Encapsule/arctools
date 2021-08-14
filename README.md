@@ -1,63 +1,346 @@
 # [![Encapsule Project](https://encapsule.io/images/blue-burst-encapsule.io-icon-72x72.png "Encapsule Project")](https://encapsule.io) Encapsule Project
 
-# @encapsule/arctools v0.1.11 "woodlands"
+## @encapsule/arctools v0.2.01-firestorm
+
+**@encapsule/arctools contains a small collection of command-line utilities derived from the @encapsule/arccore package.**
 
 ```
-Package: @encapsule/arctools v0.1.11 "woodlands" build ID "q7umH8vtTI2rvSCMCigCQg"
-Sources: Encapsule/ARC_master#fc9a90f7f557ac247a068d0490545928688b8f02
+Package: @encapsule/arctools v0.2.01-firestorm build nBb0p-4BTIuUMnI0WUVBJQ
+Sources: @encapsule/dpmr-arc-core-at#c47e91c198f493d91cf63cb499ea5b2d79878f41
 Purpose: tools (Node.js)
-Created: 2021-02-26T14:05:12.000Z
+Created: 2021-08-14T05:11:58.000Z
 License: MIT
 ```
 
-# Summary
+This package contains experimental (i.e. undocumented) tools that are _optional_.
 
-## Description
+You do not need to install this package to work with the `@encapsule/arccore` package.
 
-ARC stands for Addressable Resource Cell. @encapsule/arctools contains a small collection of command-line utilities derived from @encapsule/arccore. Used primarily by @encapsule/holistic package.
+# Use
 
-This package contains experimental (i.e. undocumented) tools that are _optional_ - you do not need to install this package to work with the `arccore` package.
-
-## Usage
-
-The `@encapsule/arctools` tools package is typically installed globally.
+Typically, the `@encapsule/arctools` tools package is registered via `npm` so that its exported script(s) are available at the command line of your OS:
 
 ```
-$ yarn global add @encapsule/arctools
+$ npm install --global @encapsule/arctools
 ```
 
-or...
+# Tools
 
+## arc_generateIRUT
 
-```
-$ npm install -g @encapsule/arctools
-```
+C
 
-## Distribution
+o
 
-The `@encapsule/arctools` tools package is published on [npmjs](https://npmjs.com).
+m
 
-- [@encapsule/arctools Package Distribution](https://npmjs.com/package/@encapsule/arctools/v/0.1.11) ([npm](https://www.npmjs.com/@encapsule))
-- [@encapsule/arctools Package Repository](https://github.com/Encapsule/arctools) ([GitHub](https://github.com/Encapsule))
+m
 
-## Contents
+a
 
-Installing the `arctools` package globally as above will register `arc_generateIRUT`, `arc_doc_filter`, and experimental `arc_project` executables available at the shell prompt. Or, in automation environments (e.g. make).
+n
 
-Use the `--help` option to get going:
+d
 
-```
-$ arc_generateIRUT --help
-```
+ 
+
+l
+
+i
+
+n
+
+e
+
+ 
+
+u
+
+t
+
+i
+
+l
+
+t
+
+y
+
+ 
+
+t
+
+h
+
+a
+
+t
+
+ 
+
+g
+
+e
+
+n
+
+e
+
+r
+
+a
+
+t
+
+e
+
+s
+
+ 
+
+a
+
+n
+
+d
+
+ 
+
+a
+
+r
+
+r
+
+a
+
+y
+
+ 
+
+o
+
+f
+
+ 
+
+v
+
+4
+
+ 
+
+U
+
+U
+
+I
+
+D
+
+ 
+
+e
+
+n
+
+c
+
+o
+
+d
+
+e
+
+d
+
+ 
+
+a
+
+s
+
+ 
+
+2
+
+2
+
+-
+
+c
+
+h
+
+a
+
+r
+
+a
+
+c
+
+t
+
+e
+
+r
+
+ 
+
+I
+
+n
+
+t
+
+e
+
+r
+
+n
+
+e
+
+t
+
+ 
+
+R
+
+o
+
+u
+
+t
+
+a
+
+b
+
+l
+
+e
+
+ 
+
+U
+
+n
+
+i
+
+q
+
+u
+
+e
+
+ 
+
+T
+
+o
+
+k
+
+e
+
+n
+
+ 
+
+(
+
+I
+
+R
+
+U
+
+T
+
+)
+
+ 
+
+s
+
+t
+
+r
+
+i
+
+n
+
+g
+
+s
+
+.
+
+`
+
+`
+
+`
+
+$
+
+ 
+
+a
+
+r
+
+c
+
+_
+
+g
+
+e
+
+n
+
+e
+
+r
+
+a
+
+t
+
+e
+
+I
+
+R
+
+U
+
+T
+
+`
+
+`
+
+`
+
+# Sources
+
+- [https://npmjs.com/package/@encapsule/arctools/v/0.2.01](https://npmjs.com/package/@encapsule/arctools/v/0.2.01)
+- [https://github.com/Encapsule/arctools](https://github.com/Encapsule/arctools)
 
 <hr>
 
 [![Encapsule Project](https://encapsule.io/images/blue-burst-encapsule.io-icon-72x72.png "Encapsule Project")](https://encapsule.io)
 
-Copyright &copy; 2021 [Christopher D. Russell](https://github.com/ChrisRus) Seattle, Washington USA
+Published under [MIT](./LICENSE) license by [Encapsule Project](https://github.com/Encapsule)
 
-Published under [MIT](./LICENSE) license by [Encapsule Project](https://encapsule.io)
+Copyright &copy; 2021 [Chris Russell](https://github.com/ChrisRus)
 
-Please follow [@Encapsule](https://twitter.com/Encapsule) on Twitter for news and updates.
+Updates and releases are Tweeted [@Encapsule](https://twitter.com/Encapsule)
 
 <hr>

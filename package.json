@@ -1,29 +1,29 @@
 {
     "name": "@encapsule/arctools",
-    "version": "0.1.11",
-    "codename": "woodlands",
-    "buildID": "q7umH8vtTI2rvSCMCigCQg",
-    "buildTime": 1614348312,
-    "ARC_master": "fc9a90f7f557ac247a068d0490545928688b8f02",
+    "version": "0.2.01",
+    "codename": "firestorm",
+    "buildID": "nBb0p-4BTIuUMnI0WUVBJQ",
+    "buildTime": 1628917918,
+    "buildSource": "c47e91c198f493d91cf63cb499ea5b2d79878f41",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/Encapsule/arctools.git"
+        "url": "git+https://gitlab.com/Encapsule/distributions/arctools.git"
     },
     "author": "Encapsule",
     "contributors": [
         {
-            "name": "Christopher D. Russell",
+            "name": "Chris Russell",
             "email": "cdr@encapsule.io",
             "url": "https://github.com/ChrisRus"
         }
     ],
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/Encapsule/arctools/issues"
+        "url": "https://gitlab.com/Encapsule/distributions/arctools/issues"
     },
-    "homepage": "https://github.com/Encapsule/arctools#readme",
+    "homepage": "https://gitlab.com/Encapsule/distributions/arctools#readme",
     "preferGlobal": true,
-    "description": "ARC stands for Addressable Resource Cell. @encapsule/arctools contains a small collection of command-line utilities derived from @encapsule/arccore. Used primarily by @encapsule/holistic package.",
+    "description": "@encapsule/arctools contains a small collection of command-line utilities derived from the @encapsule/arccore package.",
     "keywords": "Encapsule, holistic, filter, discriminator, routing, MDR, graph, DirectedGraph, data, algorithms, models, modeling, library",
     "dependencies": {
         "chalk": "^1.1.1",
