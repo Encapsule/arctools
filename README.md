@@ -1,20 +1,22 @@
 # [![Encapsule Project](https://encapsule.io/images/blue-burst-encapsule.io-icon-72x72.png "Encapsule Project")](https://encapsule.io) Encapsule Project
 
-## @encapsule/arctools v0.2.01-firestorm
+## @encapsule/arctools v0.2.2-firestorm
 
-**@encapsule/arctools contains a small collection of command-line utilities derived from the @encapsule/arccore package.**
+_Encapsule Project command line tools and filter function utilities derived from @encapsule/arccore package._
 
 ```
-Package: @encapsule/arctools v0.2.01-firestorm build nBb0p-4BTIuUMnI0WUVBJQ
-Sources: @encapsule/dpmr-arc-core-at#c47e91c198f493d91cf63cb499ea5b2d79878f41
+Package: @encapsule/arctools v0.2.2-firestorm build oHcK4HI2R-uWToPGoutlAQ
+Sources: @encapsule/dpmr-arc-core-at#b8d25253c32ba4ec679c9530a7bfc5c88a8ef490
 Purpose: tools (Node.js)
-Created: 2021-08-14T05:11:58.000Z
+Created: 2021-11-10T21:22:13.000Z
 License: MIT
 ```
 
-This package contains experimental (i.e. undocumented) tools that are _optional_.
+# Overview
 
-You do not need to install this package to work with the `@encapsule/arccore` package.
+This package contains command line utilities + resuable filter function libraries that are used in the build/production/test of other Encapsule Project software works.
+
+I don't have time to document it right now and you don't need it probably. So, just ignore.
 
 # Use
 
@@ -28,319 +30,24 @@ $ npm install --global @encapsule/arctools
 
 ## arc_generateIRUT
 
-C
+Command line utilty that generates and array of v4 UUID encoded as 22-character Internet Routable Unique Token (IRUT) strings.
 
-o
+```
+$ arc_generateIRUT
+```
 
-m
+# Package Links
 
-m
+- [@encapsule/arctools Package Distribution](https://npmjs.com/package/@encapsule/arctools/v/0.2.2) (npmjs)
+- [@encapsule/arctools Package Repo](https://gitlab.com/encapsule/arctools) (GitLab)
+- [@encapsule/arctools Package Issues](https://gitlab.com/encapsule/arctools/-/issues) (GitLab)
 
-a
+# [![Encapsule Project](https://encapsule.io/images/blue-burst-encapsule.io-icon-72x72.png "Encapsule Project")](https://encapsule.io) Encapsule Project
 
-n
+Published under [MIT](./LICENSE) license by [Encapsule Project](https://encapsule.io)
 
-d
+Copyright &copy; 2021 Chris Russell
 
- 
+GitLab: [https://gitlab/encapsule](https://gitlab.encapsule)
 
-l
-
-i
-
-n
-
-e
-
- 
-
-u
-
-t
-
-i
-
-l
-
-t
-
-y
-
- 
-
-t
-
-h
-
-a
-
-t
-
- 
-
-g
-
-e
-
-n
-
-e
-
-r
-
-a
-
-t
-
-e
-
-s
-
- 
-
-a
-
-n
-
-d
-
- 
-
-a
-
-r
-
-r
-
-a
-
-y
-
- 
-
-o
-
-f
-
- 
-
-v
-
-4
-
- 
-
-U
-
-U
-
-I
-
-D
-
- 
-
-e
-
-n
-
-c
-
-o
-
-d
-
-e
-
-d
-
- 
-
-a
-
-s
-
- 
-
-2
-
-2
-
--
-
-c
-
-h
-
-a
-
-r
-
-a
-
-c
-
-t
-
-e
-
-r
-
- 
-
-I
-
-n
-
-t
-
-e
-
-r
-
-n
-
-e
-
-t
-
- 
-
-R
-
-o
-
-u
-
-t
-
-a
-
-b
-
-l
-
-e
-
- 
-
-U
-
-n
-
-i
-
-q
-
-u
-
-e
-
- 
-
-T
-
-o
-
-k
-
-e
-
-n
-
- 
-
-(
-
-I
-
-R
-
-U
-
-T
-
-)
-
- 
-
-s
-
-t
-
-r
-
-i
-
-n
-
-g
-
-s
-
-.
-
-`
-
-`
-
-`
-
-$
-
- 
-
-a
-
-r
-
-c
-
-_
-
-g
-
-e
-
-n
-
-e
-
-r
-
-a
-
-t
-
-e
-
-I
-
-R
-
-U
-
-T
-
-`
-
-`
-
-`
-
-# Sources
-
-- [https://npmjs.com/package/@encapsule/arctools/v/0.2.01](https://npmjs.com/package/@encapsule/arctools/v/0.2.01)
-- [https://github.com/Encapsule/arctools](https://github.com/Encapsule/arctools)
-
-<hr>
-
-[![Encapsule Project](https://encapsule.io/images/blue-burst-encapsule.io-icon-72x72.png "Encapsule Project")](https://encapsule.io)
-
-Published under [MIT](./LICENSE) license by [Encapsule Project](https://github.com/Encapsule)
-
-Copyright &copy; 2021 [Chris Russell](https://github.com/ChrisRus)
-
-Updates and releases are Tweeted [@Encapsule](https://twitter.com/Encapsule)
-
-<hr>
+Twitter: [https://twitter.com/encapsule](https://twitter.com/encapsule)
