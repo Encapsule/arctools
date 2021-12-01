@@ -1,14 +1,14 @@
 # [![Encapsule Project](https://encapsule.io/images/blue-burst-encapsule.io-icon-72x72.png "Encapsule Project")](https://encapsule.io) Encapsule Project
 
-## @encapsule/arctools v0.2.2-firestorm
+## @encapsule/arctools v0.3.0-atmosphere
 
 _Encapsule Project command line tools and filter function utilities derived from @encapsule/arccore package._
 
 ```
-Package: @encapsule/arctools v0.2.2-firestorm build oHcK4HI2R-uWToPGoutlAQ
-Sources: @encapsule/dpmr-arc-core-at#b8d25253c32ba4ec679c9530a7bfc5c88a8ef490
+Package: @encapsule/arctools v0.3.0-atmosphere build R1_yzZF8TfKT_Lh2LAlEOQ
+Sources: @encapsule/dpmr-arc-core-at#8d31c7e07e9709238a2a096c83f1413f49bee6ae
 Purpose: tools (Node.js)
-Created: 2021-11-10T21:22:13.000Z
+Created: 2021-12-01T01:41:30.000Z
 License: MIT
 ```
 
@@ -38,7 +38,7 @@ $ arc_generateIRUT
 
 # Package Links
 
-- [@encapsule/arctools Package Distribution](https://npmjs.com/package/@encapsule/arctools/v/0.2.2) (npmjs)
+- [@encapsule/arctools Package Distribution](https://npmjs.com/package/@encapsule/arctools/v/0.3.0) (npmjs)
 - [@encapsule/arctools Package Repo](https://gitlab.com/encapsule/arctools) (GitLab)
 - [@encapsule/arctools Package Issues](https://gitlab.com/encapsule/arctools/-/issues) (GitLab)
 

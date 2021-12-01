@@ -1,10 +1,10 @@
 {
     "name": "@encapsule/arctools",
-    "version": "0.2.2",
-    "codename": "firestorm",
-    "buildID": "oHcK4HI2R-uWToPGoutlAQ",
-    "buildTime": 1636579333,
-    "buildSource": "b8d25253c32ba4ec679c9530a7bfc5c88a8ef490",
+    "version": "0.3.0",
+    "codename": "atmosphere",
+    "buildID": "R1_yzZF8TfKT_Lh2LAlEOQ",
+    "buildTime": 1638322890,
+    "buildSource": "8d31c7e07e9709238a2a096c83f1413f49bee6ae",
     "repository": {
         "type": "git",
         "url": "git+https://gitlab.com/encapsule/arctools.git"
@@ -13,8 +13,7 @@
     "contributors": [
         {
             "name": "Chris Russell",
-            "email": "cdr@encapsule.io",
-            "url": "https://github.com/ChrisRus"
+            "email": "cdr@encapsule.io"
         }
     ],
     "license": "MIT",
