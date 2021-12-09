@@ -1,10 +1,10 @@
 {
     "name": "@encapsule/arctools",
-    "version": "0.3.0",
-    "codename": "atmosphere",
-    "buildID": "R1_yzZF8TfKT_Lh2LAlEOQ",
-    "buildTime": 1638322890,
-    "buildSource": "8d31c7e07e9709238a2a096c83f1413f49bee6ae",
+    "version": "0.3.1",
+    "codename": "revontulet",
+    "buildID": "QC57U7mARS2c3-huXDxZow",
+    "buildTime": 1639036478,
+    "buildSource": "ffe04288d9f0f9b3ddd5da8096dce2dcfaa0d992",
     "repository": {
         "type": "git",
         "url": "git+https://gitlab.com/encapsule/arctools.git"
