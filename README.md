@@ -1,24 +1,28 @@
 # [![Encapsule Project](https://encapsule.io/images/blue-burst-encapsule.io-icon-72x72.png "Encapsule Project")](https://encapsule.io) Encapsule Project
 
-## @encapsule/arctools v0.3.2-snowlake
+## @encapsule/arctools v0.3.3-frostlake
 
-_Encapsule Project command line tools and filter function utilities derived from @encapsule/arccore package._
+**Encapsule Project command line tools and filter function utilities derived from @encapsule/arccore package.**
 
 ```
-Package: @encapsule/arctools v0.3.2-snowlake build mNgZymfCSDOPBVm2mWizJw
-Sources: @encapsule/dpmr-arc-core-at#59ab419d79e6159f6e3eca1fd253663395bee3d7
+Package: @encapsule/arctools v0.3.3-frostlake build -a1Apf5pSGakC8-VzYyYnQ
+Sources: @encapsule/dpmr-arc-core-at#d60d0295710883b3750a21bbf849c25084d4550c
 Purpose: tools (Node.js)
-Created: 2021-12-17T05:51:23.000Z
+Created: 2021-12-20T21:50:22.000Z
 License: MIT
 ```
 
-# Overview
+> [@encapsule/arctools Package Distribution](https://npmjs.com/package/@encapsule/arctools/v/0.3.3) (npmjs)<br/>
+> [@encapsule/arctools Package Repo](https://github.com/encapsule/arctools) (GitHub)<br/>
+> [@encapsule/arctools Package Issues](https://github.com/encapsule/arctools/issues) (GitHub)
+
+## Overview
 
 This package contains command line utilities + resuable filter function libraries that are used in the build/production/test of other Encapsule Project software works.
 
 I don't have time to document it right now and you don't need it probably. So, just ignore.
 
-# Use
+## Use
 
 Typically, the `@encapsule/arctools` tools package is registered via `npm` so that its exported script(s) are available at the command line of your OS:
 
@@ -26,9 +30,9 @@ Typically, the `@encapsule/arctools` tools package is registered via `npm` so th
 $ npm install --global @encapsule/arctools
 ```
 
-# Tools
+## Tools
 
-## arc_generateIRUT
+### arc_generateIRUT
 
 Command line utilty that generates and array of v4 UUID encoded as 22-character Internet Routable Unique Token (IRUT) strings.
 
@@ -36,18 +40,12 @@ Command line utilty that generates and array of v4 UUID encoded as 22-character 
 $ arc_generateIRUT
 ```
 
-# Package Links
-
-- [@encapsule/arctools Package Distribution](https://npmjs.com/package/@encapsule/arctools/v/0.3.2) (npmjs)
-- [@encapsule/arctools Package Repo](https://gitlab.com/encapsule/arctools) (GitLab)
-- [@encapsule/arctools Package Issues](https://gitlab.com/encapsule/arctools/-/issues) (GitLab)
-
 # [![Encapsule Project](https://encapsule.io/images/blue-burst-encapsule.io-icon-72x72.png "Encapsule Project")](https://encapsule.io) Encapsule Project
 
 Published under [MIT](./LICENSE) license by [Encapsule Project](https://encapsule.io)
 
-Copyright &copy; 2021 Chris Russell
+Copyright &copy; 2012-2021 Chris Russell
 
-GitLab: [https://gitlab/encapsule](https://gitlab.encapsule)
+GitHub: [https://github/encapsule](https://github.encapsule)
 
 Twitter: [https://twitter.com/encapsule](https://twitter.com/encapsule)
