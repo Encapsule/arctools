@@ -1,18 +1,18 @@
 # [![Encapsule Project](https://encapsule.io/images/blue-burst-encapsule.io-icon-72x72.png "Encapsule Project")](https://encapsule.io) Encapsule Project
 
-## @encapsule/arctools v0.3.3-frostlake
+## @encapsule/arctools v0.3.4-lakeserene
 
 **Encapsule Project command line tools and filter function utilities derived from @encapsule/arccore package.**
 
 ```
-Package: @encapsule/arctools v0.3.3-frostlake build -a1Apf5pSGakC8-VzYyYnQ
-Sources: @encapsule/dpmr-arc-core-at#d60d0295710883b3750a21bbf849c25084d4550c
+Package: @encapsule/arctools v0.3.4-lakeserene build kQreCCrLSIuRNxJGWSQ_vw
+Sources: @encapsule/dpmr-arc-core-at#60946ad275bcc97d6d7d7710138c8d3ed7137512
 Purpose: tools (Node.js)
-Created: 2021-12-20T21:50:22.000Z
+Created: 2022-01-02T22:26:43.000Z
 License: MIT
 ```
 
-> [@encapsule/arctools Package Distribution](https://npmjs.com/package/@encapsule/arctools/v/0.3.3) (npmjs)<br/>
+> [@encapsule/arctools Package Distribution](https://npmjs.com/package/@encapsule/arctools/v/0.3.4) (npmjs)<br/>
 > [@encapsule/arctools Package Repo](https://github.com/encapsule/arctools) (GitHub)<br/>
 > [@encapsule/arctools Package Issues](https://github.com/encapsule/arctools/issues) (GitHub)
 
@@ -44,7 +44,7 @@ $ arc_generateIRUT
 
 Published under [MIT](./LICENSE) license by [Encapsule Project](https://encapsule.io)
 
-Copyright &copy; 2012-2021 Chris Russell
+Copyright &copy; 2012-2022 Chris Russell
 
 GitHub: [https://github/encapsule](https://github.encapsule)
 

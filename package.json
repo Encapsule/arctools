@@ -1,10 +1,10 @@
 {
     "name": "@encapsule/arctools",
-    "version": "0.3.3",
-    "codename": "frostlake",
-    "buildID": "-a1Apf5pSGakC8-VzYyYnQ",
-    "buildTime": 1640037022,
-    "buildSource": "d60d0295710883b3750a21bbf849c25084d4550c",
+    "version": "0.3.4",
+    "codename": "lakeserene",
+    "buildID": "kQreCCrLSIuRNxJGWSQ_vw",
+    "buildTime": 1641162403,
+    "buildSource": "60946ad275bcc97d6d7d7710138c8d3ed7137512",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/encapsule/arctools.git"
