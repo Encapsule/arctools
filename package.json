@@ -1,10 +1,10 @@
 {
     "name": "@encapsule/arctools",
-    "version": "0.3.4",
-    "codename": "lakeserene",
-    "buildID": "kQreCCrLSIuRNxJGWSQ_vw",
-    "buildTime": 1641162403,
-    "buildSource": "60946ad275bcc97d6d7d7710138c8d3ed7137512",
+    "version": "0.3.5",
+    "codename": "lochkatrine",
+    "buildID": "I9XDxv7YRqKOJLb4YmlOvQ",
+    "buildTime": 1641927547,
+    "buildSource": "c9792a2cc90d29f3a31279d4c0d4f446e8f54198",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/encapsule/arctools.git"
