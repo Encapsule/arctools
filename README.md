@@ -1,18 +1,18 @@
 # [![Encapsule Project](https://encapsule.io/images/blue-burst-encapsule.io-icon-72x72.png "Encapsule Project")](https://encapsule.io) Encapsule Project
 
-## @encapsule/arctools v0.3.5-lochkatrine
+## @encapsule/arctools v0.3.6-bigsnowlake
 
 **Encapsule Project command line tools and filter function utilities derived from @encapsule/arccore package.**
 
 ```
-Package: @encapsule/arctools v0.3.5-lochkatrine build I9XDxv7YRqKOJLb4YmlOvQ
-Sources: @encapsule/dpmr-arc-core-at#c9792a2cc90d29f3a31279d4c0d4f446e8f54198
+Package: @encapsule/arctools v0.3.6-bigsnowlake build d21KCDYhQ4OteRdl6AO9Gw
+Sources: @encapsule/dpmr-arc-core-at#0f31e3fdb2c840b53e4aaf5378331f496a3c2b76
 Purpose: tools (Node.js)
-Created: 2022-01-11T18:59:07.000Z
+Created: 2022-05-12T04:50:51.000Z
 License: MIT
 ```
 
-> [@encapsule/arctools Package Distribution](https://npmjs.com/package/@encapsule/arctools/v/0.3.5) (npmjs)<br/>
+> [@encapsule/arctools Package Distribution](https://npmjs.com/package/@encapsule/arctools/v/0.3.6) (npmjs)<br/>
 > [@encapsule/arctools Package Repo](https://github.com/encapsule/arctools) (GitHub)<br/>
 > [@encapsule/arctools Package Issues](https://github.com/encapsule/arctools/issues) (GitHub)
 
